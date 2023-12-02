@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/RQ28H2p/banner.png" alt="banner">
+<img src="https://github.com/anbuinfosec/anbuinfosec/blob/main/banner.png" alt="banner">
 <h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> Goat Bot - Bot Chat Messenger</h1>
 
 <p align="center">
@@ -36,13 +36,16 @@
 - Node.js 16.x [Download](https://nodejs.org/dist/v16.20.0) | [Home](https://nodejs.org/en/download/) | [Other versions](https://nodejs.org/en/download/releases/)
 - Knowledge of **programming**, javascript, nodejs, unofficial facebook api
 
+## 📝 **Setup**
+- See [here](https://github.com/anbuinfosec/Goat-Bot-V2/blob/main/SETUP_INSTALL.md)
+
 ## 📝 **Tutorial**
 Tutorial has been uploaded on YouTube
 - For mobile phone: https://www.youtube.com/watch?v=grVeZ76HlgA
 - For vps/windows: https://www.youtube.com/watch?v=uCbSYNQNEwY
   
 Summary instructions:
-- See [here](https://github.com/ntkhang03/Goat-Bot-V2/blob/main/STEP_INSTALL.md)
+- See [here](https://github.com/anbuinfosec/Goat-Bot-V2/blob/main/STEP_INSTALL.md)
 
 ## 🔔 **How to get notification when have new update?**
 - Click on the `Watch` button in the upper right corner of the screen and select `Custom` and select `Pull requests` and `Releases` and click `Apply` to get notified when there is a new update.
@@ -53,7 +56,7 @@ Tutorial has been uploaded on YouTube
 - on vps/computer: https://youtu.be/uCbSYNQNEwY?t=508
 
 ## 🛠️ **How to create new commands**
-- See [here](https://github.com/ntkhang03/Goat-Bot-V2/blob/main/DOCS.md)
+- See [here](https://github.com/anbuinfosec/Goat-Bot-V2/blob/main/DOCS.md)
 
 ## 💭 **Support**
 If you have major coding issues with this bot, please join and ask for help.
@@ -120,7 +123,7 @@ If you have major coding issues with this bot, please join and ask for help.
 
 ## ❌ **DO NOT USE THE ORIGINAL UNDERGRADUATE VERSION**
 - The use of unknown source code can lead to the device being infected with viruses, malware, hacked social accounts, banks, ...
-- Goat-Bot-V2 is only published at https://github.com/ntkhang03/Goat-Bot-V2, all other sources, all forks from other github, replit,... are fake, violate policy
+- Goat-Bot-V2 is only published at https://github.com/anbuinfosec/Goat-Bot-V2, all other sources, all forks from other github, replit,... are fake, violate policy
 - If you use from other sources (whether accidentally or intentionally) it means that you are in violation and will be banned without notice
 ## 📸 **Screenshots**
 - ### Bot
@@ -217,6 +220,7 @@ If you have major coding issues with this bot, please join and ask for help.
 
 ## ✨ **Copyright (C)**
 - **[NTKhang (NTKhang03)](https://github.com/ntkhang03)**
+- **[Mohammad Alamin (anbuinfosec)](https://github.com/anbuinfosec)**
 
 ## 📜 **License**
 
