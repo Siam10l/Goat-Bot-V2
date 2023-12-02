@@ -1,242 +1,65 @@
-<img src="https://github.com/anbuinfosec/anbuinfosec/blob/main/banner.png" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> Goat Bot - Bot Chat Messenger</h1>
-
 <p align="center">
-	<a href="https://nodejs.org/dist/v16.20.0">
-		<img src="https://img.shields.io/badge/Nodejs%20Support-16.x-brightgreen.svg?style=flat-square" alt="Nodejs Support v16.x">
-	</a>
-  <img alt="size" src="https://img.shields.io/github/repo-size/ntkhang03/Goat-Bot-V2.svg?style=flat-square&label=size">
-  <img alt="code-version" src="https://img.shields.io/badge/dynamic/json?color=brightgreen&label=code%20version&prefix=v&query=%24.version&url=https://github.com/ntkhang03/Goat-Bot-V2/raw/main/package.json&style=flat-square">
-  <img alt="visitors" src="https://visitor-badge.laobi.icu/badge?style=flat-square&page_id=ntkhang3.Goat-Bot-V2">
-  <img alt="size" src="https://img.shields.io/badge/license-MIT-green?style=flat-square&color=brightgreen">
+    <img width="200" src="banner.png" alt="Banner anbuinfosec">
 </p>
 
-- [📝 **Note**](#-note)
-- [🚧 **Requirement**](#-requirement)
-- [📝 **Tutorial**](#-tutorial)
-- [🔔 **How to get notification when have new update?**](#-how-to-get-notification-when-have-new-update)
-- [🆙 **How to Update**](#-how-to-update)
-- [🛠️ **How to create new commands**](#️-how-to-create-new-commands)
-- [💭 **Support**](#-support)
-- [📚 **Support Languages in source code**](#-support-languages-in-source-code)
-- [📌 **Common Problems**](#-common-problems)
-- [❌ **DO NOT USE THE ORIGINAL UNDERGRADUATE VERSION**](#-do-not-use-the-original-undergraduate-version)
-- [📸 **Screenshots**](#-screenshots)
-- [✨ **Copyright (C)**](#-copyright-c)
-- [📜 **License**](#-license)
 
-<hr>
+## **STEP INSTALL GOAT BOT V2**
+> This is a guide to install Goat Bot V2 on mobile devices (Android, iOS) and PC (Windows, MacOS, Linux) with replit.com
 
-## 📝 **Note**
-- This is a messenger chat bot using a personal account, using an [unofficial api](https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md) ([Origin here](https://github.com/Schmavery/facebook-chat-api)) and this may lead to facebook account being locked due to spam or other reasons. 
-- So, I recommend using a clone account (one that you're willing to throw away at any time)
-- ***I am not responsible for any problems that may arise from using this bot.***
+* Watch the detailed video tutorial to install Goat Bot V2 on mobile devices (Android, iOS) 
+<div align="center">
+	<a href="https://www.youtube.com/watch?v=grVeZ76HlgA"><img src="https://img.youtube.com/vi/grVeZ76HlgA/maxresdefault.jpg" width="400"></a>
+</div>
 
-## 🚧 **Requirement**
-- Node.js 16.x [Download](https://nodejs.org/dist/v16.20.0) | [Home](https://nodejs.org/en/download/) | [Other versions](https://nodejs.org/en/download/releases/)
-- Knowledge of **programming**, javascript, nodejs, unofficial facebook api
+* If you want to install Goat Bot V2 on vps/computer, please follow the guide below:
+<div align="center">
+	<a href="https://www.youtube.com/watch?v=uCbSYNQNEwY"><img src="https://img.youtube.com/vi/uCbSYNQNEwY/maxresdefault.jpg" width="400"></a>
+</div>
 
-## 📝 **Setup**
-- See [here](https://github.com/anbuinfosec/Goat-Bot-V2/blob/main/SETUP_INSTALL.md)
+---
+<h1 align="center"><b>STEP BY STEP GUIDE</b></h1>
 
-## 📝 **Tutorial**
-Tutorial has been uploaded on YouTube
-- For mobile phone: https://www.youtube.com/watch?v=grVeZ76HlgA
-- For vps/windows: https://www.youtube.com/watch?v=uCbSYNQNEwY
-  
-Summary instructions:
-- See [here](https://github.com/anbuinfosec/Goat-Bot-V2/blob/main/STEP_INSTALL.md)
-
-## 🔔 **How to get notification when have new update?**
-- Click on the `Watch` button in the upper right corner of the screen and select `Custom` and select `Pull requests` and `Releases` and click `Apply` to get notified when there is a new update.
-
-## 🆙 **How to Update**
-Tutorial has been uploaded on YouTube
-- on phone/repl: https://youtu.be/grVeZ76HlgA?t=1342
-- on vps/computer: https://youtu.be/uCbSYNQNEwY?t=508
-
-## 🛠️ **How to create new commands**
-- See [here](https://github.com/anbuinfosec/Goat-Bot-V2/blob/main/DOCS.md)
-
-## 💭 **Support**
-If you have major coding issues with this bot, please join and ask for help.
-- https://discord.com/invite/DbyGwmkpVY (recommended)
-- https://www.facebook.com/groups/goatbot
-- https://www.facebook.com/groups/goatbot/permalink/493150412403231
-- https://m.me/j/AbYrIGusyc0M402z
-- ~~https://t.me/gatbottt~~ (no longer supported)
-- ***Please do not inbox me, I do not respond to private messages, any questions please join the chat group for answers. ThankThanks!***
-
-## 📚 **Support Languages in source code**
-- Currently, the bot supports 2 languages:
-- [x] `en: English`
-- [x] `vi: Vietnamese`
-
-- Change language in `config.json` file
-- You can customize the language in the folder `languages/`, `languages/cmds/` and `languages/events/`
-
-## 📌 **Common Problems**
-<details>
-	<summary>
-		📌 Error 400: redirect_uri_mismatch
-	</summary>
-	<p><img src="https://i.ibb.co/6Fbjd4r/image.png" width="250px"></p> 
-	<p>1. Enable Google Drive API: <a href="https://youtu.be/nTIT8OQeRnY?t=347">Tutorial</a></p>
-	<p>2. Add uri <a href="https://developers.google.com/oauthplayground">https://developers.google.com/oauthplayground</a> (not <a href="https://developers.google.com/oauthplayground/">https://developers.google.com/oauthplayground/</a>) to <b>Authorized redirect URIs</b> in <b>OAuth consent screen:</b> <a href="https://youtu.be/nTIT8OQeRnY?t=491">Tutorial</a></p>  
-	<p>3. Choose <b>https://www.googleapis.com/auth/drive</b> and <b>https://mail.google.com/</b> in <b>OAuth 2.0 Playground</b>: <a href="https://youtu.be/nTIT8OQeRnY?t=600">Tutorial</a></p>
-</details>
-
-<details>
-	<summary>
-		📌 Error for site owners: Invalid domain for site key
-	</summary>
-		<p><img src="https://i.ibb.co/2gZttY7/image.png" width="250px"></p>
-		<p>1. Go to <a href="https://www.google.com/recaptcha/admin">https://www.google.com/recaptcha/admin</a></p>
-		<p>2. Add domain <b>repl.co</b> (not <b>repl.com</b>) to <b>Domains</b> in <b>reCAPTCHA v2</b> <a href="https://youtu.be/nTIT8OQeRnY?t=698">Tutorial</a></p>
-</details>
-
-<details>
-	<summary>
-		📌 GaxiosError: invalid_grant, unauthorized_client 
-	</summary>
-		<p><img src="https://i.ibb.co/n7w9TkH/image.png" width="250px"></p>
-		<p><img src="https://i.ibb.co/XFKKY9c/image.png" width="250px"></p>
-		<p><img src="https://i.ibb.co/f4mc5Dp/image.png" width="250px"></p>
-		<p>- If you don't publish the project in google console, the refresh token will expire after 1 week and you need to get it back. <a href="https://youtu.be/nTIT8OQeRnY?t=445">Tuatorial</a></p>
-</details>
-
-<details>
-	<summary>
-		📌 GaxiosError: invalid_client
-	</summary>
-		<p><img src="https://i.ibb.co/st3W6v4/Pics-Art-01-01-09-10-49.jpg" width="250px"></p>
-		<p>- Check if you have entered your google project client_id correctly <a href="https://youtu.be/nTIT8OQeRnY?t=509">Tuatorial</a></p>
-</details>
-
-<details>
-	<summary>
-		📌 Error 403: access_denied
-	</summary>
-		<p><img src="https://i.ibb.co/dtrw5x3/image.png" width="250px"></p>
-		<p>- If you don't publish the project in google console only the approved accounts added to the project can use it <a href="https://youtu.be/nTIT8OQeRnY?t=438">Tuatorial</a></p>
-</details>
-
-## ❌ **DO NOT USE THE ORIGINAL UNDERGRADUATE VERSION**
-- The use of unknown source code can lead to the device being infected with viruses, malware, hacked social accounts, banks, ...
-- Goat-Bot-V2 is only published at https://github.com/anbuinfosec/Goat-Bot-V2, all other sources, all forks from other github, replit,... are fake, violate policy
-- If you use from other sources (whether accidentally or intentionally) it means that you are in violation and will be banned without notice
-## 📸 **Screenshots**
-- ### Bot
-<details>
-	<summary>
- 		Rank system
-	</summary>
-
-  - Rank card:
-  <p><img src="https://i.ibb.co/d0JDJxF/rank.png" width="399px"></p>
-
-  - Rankup notification:
-  <p><img src="https://i.ibb.co/WgZzthH/rankup.png" width="399px"></p>
-
-  - Custom rank card:
-  <p><img src="https://i.ibb.co/hLTThLW/customrankcard.png" width="399px"></p>
-</details>
-
-<details>
-	<summary>
- 		Weather
-	</summary>
-	<p><img src="https://i.ibb.co/2FwWVLv/weather.png" width="399px"></p>
-</details>
-
-<details>
-	<summary>
- 		Auto send notification when have user join or leave box chat (you can custom message)
-	</summary>
-	<p><img src="https://i.ibb.co/Jsb5Jxf/wcgb.png" width="399px"></p>
-</details>
-
-<details>
-	<summary>
- 		Openjourney
-	</summary>
-	<p><img src="https://i.ibb.co/XJfwj1X/Screenshot-2023-05-09-22-43-58-630-com-facebook-orca.jpg" width="399px"></p>
-</details>
-
-<details>
-	<summary>
- 		GPT
-	</summary>
-	<p><img src="https://i.ibb.co/D4wRbM3/Screenshot-2023-05-09-22-47-48-037-com-facebook-orca.jpg" width="399px"></p>
-	<p><img src="https://i.ibb.co/z8HqPkH/Screenshot-2023-05-09-22-47-53-737-com-facebook-orca.jpg" width="399px"></p>
-	<p><img src="https://i.ibb.co/19mZQpR/Screenshot-2023-05-09-22-48-02-516-com-facebook-orca.jpg" width="399px"></p>
-</details>
+* Download kiwi browser from play store. Open kiwi browser and go to https://replit.com
+```
+https://replit.com
+```
+* Create a new team education, then create a new project with `bash` language, then open console and type:
+```bash
+git clone https://github.com/anbuinfosec/Goat-Bot-V2 && cp -r Goat-Bot-V2/. . && rm -rf Goat-Bot-V2
+```
+* Then type:
+```bash
+npm install
+```
+* Download extension `Cookie Editor` from chrom web store, then go to https://facebook.com, open that extension and click `Export` -> `Export as JSON`
+* Then back to replit, open file `account.txt` and paste your cookie there
+---
+* Go to https://console.cloud.google.com/ to create a new project (don't forget to **`public`** your project) and add Authorized redirect URIs: `https://developers.google.com/oauthplayground` (without backslash at the end), then go to https://developers.google.com/oauthplayground to create a new OAuth 2.0 Client ID with permission: `https://www.googleapis.com/auth/drive` and `https://mail.google.com` then copy your `Refresh token` `Client ID` and `Client Secret` to `config.json` in part `credentials` -> `google`
+```
+https://console.cloud.google.com/
+```
+```
+https://developers.google.com/oauthplayground
+```
+* Go to https://www.google.com/recaptcha/admin/create to create a new reCAPTCHA v2 with `I'm not a robot checkbox`
+* Add domain **`repl.co`** (not repl.com) to your reCAPTCHA v2 
+* Accept the reCAPTCHA v2 terms of service 
+* Then copy your `Site key` and `Secret key` to `config.json`
+```
+https://www.google.com/recaptcha/admin/create
+```
+* Go to https://betterstack.com/better-uptime or https://uptimerobot.com/ to create a new monitor for your project
+```
+https://betterstack.com/better-uptime
+```
 
 
+### How to get apikey?
 
-- ### Dashboard
-<details>
-	<summary>
- 		Home:
-	</summary>
-	<p><img src="https://i.ibb.co/xzv6s2j/dbHome.png" width="399px"></p>
-</details>
-
-<details>
-	<summary>
- 		Stats:
-	</summary>
-	<p><img src="https://i.ibb.co/zVZv9LF/dbStats.png" width="399px"></p>
-</details>
-
-<details>
-	<summary>
- 		Login/Register:
-	</summary>
-	<p><img src="https://i.ibb.co/SK61MRx/dbLogin.png" width="399px"></p>
-	<p><img src="https://i.ibb.co/1rchbb1/db-Register.png" width="399px"></p>
-</details>
-
-<details>
-	<summary>
- 		Dashboard Thread:
-	</summary>
-	<p><img src="https://i.ibb.co/NK5yYwx/dbThread.png" width="399px"></p>
-</details>
-
-<details>
-	<summary>
- 		Custom on/off:
-	</summary>
-	<p><img src="https://i.ibb.co/mJqsP2L/dbCustom.png" width="399px"></p>
-</details>
-
-<details>
-	<summary>
- 		Custom welcome message (similar with leave, rankup (coming soon), custom command (coming soon))
-	</summary>
-	<p><img src="https://i.ibb.co/3SyfQkz/db-Custom-Welcome.png" width="399px"></p>
-</details>
-
-## ✨ **Copyright (C)**
-- **[NTKhang (NTKhang03)](https://github.com/ntkhang03)**
-- **[Mohammad Alamin (anbuinfosec)](https://github.com/anbuinfosec)**
-
-## 📜 **License**
-
-**VIETNAMESE**
-
-- ***Nếu bạn vi phạm bất kỳ quy tắc nào, bạn sẽ bị cấm sử dụng dự án của tôi***
-- Không bán mã nguồn của tôi
-- Không tự xưng là chủ sở hữu của mã nguồn của tôi
-- Không kiếm tiền từ mã nguồn của tôi (chẳng hạn như: mua bán lệnh, mua bán/cho thuê bot, kêu gọi quyên góp, v.v.)
-- Không xóa/sửa đổi credit (tên tác giả) trong mã nguồn của tôi
-
-**ENGLISH**
-
-- ***If you violate any rules, you will be banned from using my project***
-- Don't sell my source code
-- Don't claim my source code as your own
-- Do not monetize my source code (such as: buy and sell commands, buy and sell bots, call for donations, etc.)
-- Don't remove/edit my credits (author name) in my source code
-
+1. Go to your browser and search [anbusec.xys](anbusec.xyz).
+2. Click on register.
+3. Create your account.
+4. Login your account.
+5. Click profile.
+6. Copy your apikey.
+7. Then open configCommands.json and put it on envGlobal apikey.
