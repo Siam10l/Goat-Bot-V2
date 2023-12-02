@@ -2,36 +2,36 @@ const axios = require("axios");
 
 module.exports = {
 	config: {
-		name: "videofb",
-		aliases: ["fb", "fbdown"],
-		version: "1.4",
+		name: "twit",
+		aliases: ["twitter"],
+		version: "1.0",
 		author: "Mohammad Alamin",
 		countDown: 5,
 		role: 0,
 		shortDescription: {
-			vi: "Tải video từ facebook",
-			en: "Download video from facebook"
+			vi: "Tải video từ twitter",
+			en: "Download video from twitter"
 		},
 		longDescription: {
-			vi: "Tải video/story từ facebook (công khai)",
-			en: "Download video/story from facebook (public)"
+			vi: "Tải video/story từ twitter (công khai)",
+			en: "Download video/story from twitter (public)"
 		},
 		category: "media",
 		guide: {
-			vi: "   {pn} <url video/story>: tải video từ facebook",
-			en: "   {pn} <url video/story>: download video from facebook"
+			vi: "   {pn} <url video/story>: tải video từ twitter",
+			en: "   {pn} <url video/story>: download video from twitter"
 		}
 	},
 
 	langs: {
 		vi: {
-			missingUrl: "Vui lòng nhập url video/story facebook (công khai) bạn muốn tải về",
+			missingUrl: "Vui lòng nhập url video/story twitter (công khai) bạn muốn tải về",
 			error: "Đã xảy ra lỗi khi tải video",
 			downloading: "Đang tiến hành tải video cho bạn",
 			tooLarge: "Rất tiếc không thể tải video cho bạn vì dung lượng lớn hơn 83MB"
 		},
 		en: {
-			missingUrl: "Please enter the facebook video/story (public) url you want to download",
+			missingUrl: "Please enter the twitter video/story (public) url you want to download",
 			error: "An error occurred while downloading the video",
 			downloading: "Downloading video for you",
 			tooLarge: "Sorry, we can't download the video for you because the size is larger than 83MB"
@@ -45,7 +45,7 @@ module.exports = {
 
 		let msgSend = null;
 		try {
-			const response = await axios.get(`https://anbusec.xyz/api/downloader/facebook?apikey=${envGlobal.apiKey}&url=${args[0]}`);
+			const response = await axios.get(`https://anbusec.xyz/api/downloader/twitter?apikey=${envGlobal.apiKey}&url=${args[0]}`);
 
 			if (!response.data.status) {
 				return message.reply(response.data.message);
@@ -53,7 +53,7 @@ module.exports = {
 
 			msgSend = message.reply(getLang("downloading"));
 
-			const stream = await global.utils.getStreamFromURL(response.data.url2); //url2 is for high quality videos & url1 is for low quality videos
+			const stream = await global.utils.getStreamFromURL(response.data.url);
 			await message.reply({ attachment: stream });
 
 			message.unsend((await msgSend).messageID);
